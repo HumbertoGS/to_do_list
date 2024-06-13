@@ -1,0 +1,17 @@
+.Mensaje {
+  position: fixed;
+  bottom: 17px;
+  left: 10px;
+  width: auto;
+  z-index: 9999;
+}
+
+.Alert {
+  width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .Alert {
+    width: 365px;
+  }
+}
